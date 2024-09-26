@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+}
+
+body {
+  background-color: #23253a !important;
+}
+
+.navbar.custom-nav {
+  background-color: #212437;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#home-section {
+  padding-top: 12vh;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.nav-item {
+  margin-right: 5px;
+}
+
+.nav-link.custom-link {
+  color: white;
+  font-size: 66%;
+  font-weight: 600;
+}
+
+.nav-link.custom-link.section {
+  color: white;
+  font-size: 1.8em;
+  font-weight: 800;
+}
+
+.nav-link.custom-link:hover {
+  color: #ff4b57;
+}
+
+.nav-link.custom-link:focus {
+  color: #ff4b57;
+}
+
+.navbar .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.container.info-container {
+  width: 90%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.container.info-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-text {
+  color: white;
+  font-size: 2.6em;
+  font-weight: 600;
+}
+
+.info-text {
+  color: white;
+  font-size: 1.2em;
+}
+
+.container.button-container {
+  padding: 25px;
+  background-color: #ff4b57;
+}
+
+.link-text {
+  color: #23253a;
+  text-decoration: none;
+  font-size: 1.6em;
+  font-weight: 800;
+}
+
+.link-text:hover {
+  text-decoration: underline;
+}
+
+.container.about-section {
+    width: 90%;
+    height: 80vh;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.about-me {
+  color: #ff4b57;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.iam-text {
+  font-size: 2em;
+  font-weight: 700;
+  color: white;
+  margin-left: 9px;
+}
+
+.about-info-text {
+  color: white;
+}
+
+.container.about-title {
+  height: 50px;
+}
+
+.container.project-section {
+    width: 90%;
+    height: 50vh;
+    margin-top: 160px;
+}
+
+.project-text {
+    color: #ff4b57;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.container.project-box {
+    padding: 25px;
+    background-color: #ff4b57;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-box-text {
+    color: white;
+    text-decoration: none;
+    font-size: 1.6em;
+    font-weight: 800;
+}
+
+.btn.btn-primary.custom-button {
+  width: 60px !important;
+  height: 35px !important;
+  background-color: #23253a;
+  border: none;
+  font-weight: 500;
+}
+
+.btn.btn-primary.custom-button:hover {
+  opacity: 90%;
+  transition: 0.6s;
+}
+
+.container.project-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-desc {
+  color: white;
+}
+
+.container.contact-section {
+  margin-top: 70vh;
+  margin-bottom: 80vh;
+  width: 90%;
+  height: 30vh;
+}
+
+.contact-title-text {
+  color: #ff4b57;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.form-label {
+  color: white;
+}
+
+.form-control {
+ width: 80% !important;
+ height: 60px;
+ border: none !important;
+ border-radius: 0 !important;
+ background-color: #282a41 !important;
+ color: grey !important;
+}
+
+.form-control::placeholder {
+  color: grey !important;
+}
+
+.container.submit-button {
+  margin-top: 20px;
+}
+
+.btn.btn-primary.stay-button {
+  background-color: #ff4b57 !important;
+  border: none;
+  padding: 15px 15px;
+}
+
+.btn.btn-primary.stay-button:hover {
+  background-color: #ff4b57 !important;
+}
+
+.btn.btn-primary.stay-button:focus {
+  opacity: 80% !important;
+}
+
+.container-fluid.footer-area {
+  height: 25vh;
+  width: 100%;
+  background-color: #ff4b57;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container.footer-name-area {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.my-name {
+  color: white;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.container.subject-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  margin-right: 5%;
+}
+
+.subject-text {
+  color: white;
+  font-size: 100%;
+  font-weight: 600;
+}
